@@ -1,4 +1,0 @@
-#! bin/bash
-
-
-ls -A -m -t -F
