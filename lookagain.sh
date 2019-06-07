@@ -1,0 +1,1 @@
+find . -name '*.sh' -print | cut -f2 -d'.'
