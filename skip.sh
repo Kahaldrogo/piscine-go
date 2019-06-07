@@ -1,3 +1,3 @@
 
 
-ls -l | sed -n "1~2p"
+ls -l |sed -n "q" | sed -n "1p~2"
