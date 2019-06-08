@@ -1,4 +1,3 @@
 
 
 
-grep "CLUE" mystery/crimescene
