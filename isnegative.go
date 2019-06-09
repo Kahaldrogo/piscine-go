@@ -9,3 +9,4 @@ func IsNegative (nb int) {
 	} else {
 		fmt.Println("T")
 	}
+}
