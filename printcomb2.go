@@ -1,4 +1,4 @@
-package piscine_go
+package piscine
 
 import "fmt"
 import "strconv"
