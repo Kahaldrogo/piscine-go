@@ -4,6 +4,6 @@ import (
 	"fmt"
 )
 
-func PutStr(str string) {
+func PrintStr(str string) {
            fmt.Print(str)
 }
