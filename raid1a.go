@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+
 func printline( n,x,y int) {
 	if(x == 1 || x==y){
 		fmt.Print("o")
