@@ -1,4 +1,4 @@
-package Raid01
+package student
 
 import (
 	"fmt"
