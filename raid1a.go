@@ -9,7 +9,7 @@ func printline( n,x,y int) {
 		for i:= 0; i<n-2 ;i++ {
 			fmt.Print("-")
 		}
-		if (n >=2 || n <=1){
+		if (n >=2 || n < 1){
 			fmt.Print("o")
 		}
 		fmt.Print("\n")
