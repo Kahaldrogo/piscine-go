@@ -6,7 +6,7 @@ import (
 
 )
 
-func BasicAtoi2(s string) int {
+func Atoi(s string) int {
             a := 0
            intI, err := strconv.Atoi(s)
 	if err == nil{
