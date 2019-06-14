@@ -5,7 +5,7 @@ import "math"
 
 
 func FindNextPrime(nb int) int {
-      for !IsPrime(){
+      for !IsPrime(nb){
 		nb+=1
 	}
 	return nb
