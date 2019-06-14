@@ -1,8 +1,5 @@
 package piscine
 
-import "math"
-
-import "fmt"
 
 func IterativeFactorial(nb int) int{
 	if nb>16 || nb<0{
