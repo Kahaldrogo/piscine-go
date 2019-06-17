@@ -78,7 +78,7 @@ func IsUpper(str string) bool {
 }
 
 func IsPrintable(str string) bool {
-	return (!strings.Contains(str, string("\n")) && !strings.Contains(str, string("\b")) && !strings.Contains(str, string("\v")) && !strings.Contains(str, string("\t")) && !strings.Contains(str, string("\f")))
+	return (!strings.Contains(str, string("\n")) && !strings.Contains(str, string("\b")) && !strings.Contains(str, string("\v")) && !strings.Contains(str, string("\t")) && !strings.Contains(str, string("\f")) && !strings.Contains(str, string("\a")))
 }
 
 func Concat(str1, str2 string) string {
