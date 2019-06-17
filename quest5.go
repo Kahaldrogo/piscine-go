@@ -34,7 +34,7 @@ func ToLower(s string)  string{
 }
 
 func Capitalize(s string)  string{
-	return strings.Title(ToUpper(s))
+	return strings.Title(ToLower(s))
 }
 
 func IsAlpha(str string) bool {
